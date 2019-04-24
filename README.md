@@ -4,4 +4,4 @@ Authentication used:\
 1)-Email-Verifaction.\
 2)-Password Reset Verification.\
 Online Database (Realtime Firebase Database).\
-Contact for future Information.\
+Contact for future Information.
