@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1B89A6"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/ed1"
+        android:layout_width="398dp"
+        android:layout_height="51dp"
+        android:autofillHints=""
+        android:background="@drawable/bt_bg"
+        android:ems="10"
+        android:hint="  E-mail"
+        android:padding="8dp"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/ed2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        tools:targetApi="o" />
+
+    <EditText
+        android:id="@+id/ed2"
+        android:layout_width="398dp"
+        android:layout_height="51dp"
+        android:background="@drawable/bt_bg"
+        android:ems="10"
+        android:hint="  Password"
+        android:padding="8dp"
+        android:importantForAutofill="no"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/signin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ed1"
+        tools:targetApi="o" />
+
+    <Button
+        android:id="@+id/signin"
+        android:layout_width="165dp"
+        android:layout_height="54dp"
+        android:background="@drawable/bt_bg"
+        android:text="@string/sign_in"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/modify"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ed2" />
+
+    <Button
+        android:id="@+id/modify"
+        android:layout_width="165dp"
+        android:layout_height="54dp"
+        android:background="@drawable/bt_bg"
+        android:text="     modify_password     "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/signin"
+        app:layout_constraintTop_toBottomOf="@+id/ed2" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="422dp"
+        android:layout_height="391dp"
+        app:layout_constraintBottom_toTopOf="@+id/ed1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/issue" />
+
+
+</android.support.constraint.ConstraintLayout>

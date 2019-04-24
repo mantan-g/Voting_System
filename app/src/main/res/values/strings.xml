@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AndroVote</string>
+    <string name="sign_in">Sign-in</string>
+    <string name="password">Password</string>
+    <string name="e_mail">E-Mail</string>
+    <string name="modify_password">Modify Password</string>
+    <string name="todo">TODO</string>
+    <string name="add_new_user">Add new User</string>
+    <string name="grant_permission">Grant Permission</string>
+    <string name="admin_vote">Admin Vote</string>
+    <string name="description">Description</string>
+</resources>
